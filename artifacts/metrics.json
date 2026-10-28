@@ -1,0 +1,259 @@
+{
+  "synthetic_data": true,
+  "train_n": 600,
+  "test_n": 150,
+  "seed": 42,
+  "rules_baseline": {
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "n": 150,
+    "per_cause": {
+      "medical_necessity": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 19
+      },
+      "prior_auth_missing": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 19
+      },
+      "coding_bundling": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 19
+      },
+      "eligibility": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 19
+      },
+      "timely_filing": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 19
+      },
+      "duplicate_claim": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 19
+      },
+      "documentation_insufficient": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 18
+      },
+      "experimental_investigational": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 18
+      }
+    }
+  },
+  "trained_model": {
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "n": 150,
+    "per_cause": {
+      "medical_necessity": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 19
+      },
+      "prior_auth_missing": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 19
+      },
+      "coding_bundling": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 19
+      },
+      "eligibility": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 19
+      },
+      "timely_filing": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 19
+      },
+      "duplicate_claim": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 19
+      },
+      "documentation_insufficient": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 18
+      },
+      "experimental_investigational": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 18
+      }
+    }
+  },
+  "code_masked_evaluation": {
+    "note": "Denial codes replaced with DEN-XXX at test time. Even masked, templated synthetic language is separable by construction \u2014 saturation here proves pipeline correctness, not real-world performance.",
+    "rules_baseline": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "n": 150,
+      "per_cause": {
+        "medical_necessity": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 19
+        },
+        "prior_auth_missing": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 19
+        },
+        "coding_bundling": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 19
+        },
+        "eligibility": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 19
+        },
+        "timely_filing": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 19
+        },
+        "duplicate_claim": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 19
+        },
+        "documentation_insufficient": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 18
+        },
+        "experimental_investigational": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 18
+        }
+      }
+    },
+    "trained_model_original": {
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "n": 150,
+      "per_cause": {
+        "medical_necessity": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 19
+        },
+        "prior_auth_missing": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 19
+        },
+        "coding_bundling": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 19
+        },
+        "eligibility": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 19
+        },
+        "timely_filing": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 19
+        },
+        "duplicate_claim": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 19
+        },
+        "documentation_insufficient": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 18
+        },
+        "experimental_investigational": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 18
+        }
+      }
+    }
+  },
+  "calibration_test": {
+    "by_band": {
+      "low": {
+        "n": 43,
+        "mean_probability": 0.2841,
+        "empirical_rate": 0.2093
+      },
+      "medium": {
+        "n": 67,
+        "mean_probability": 0.5356,
+        "empirical_rate": 0.5075
+      },
+      "high": {
+        "n": 40,
+        "mean_probability": 0.744,
+        "empirical_rate": 0.725
+      }
+    },
+    "brier_score": 0.2153,
+    "expected_calibration_error_bands": 0.0391,
+    "n": 150,
+    "note": "Outcomes are simulated; calibration is internal to the synthetic generator."
+  },
+  "appeal_quality_test_ground_truth": {
+    "n": 150,
+    "pass_rate": 1.0,
+    "cite_rate": 1.0,
+    "invented_code_rate": 0.0,
+    "invented_policy_rate": 0.0
+  }
+}

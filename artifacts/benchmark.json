@@ -1,0 +1,9 @@
+{
+  "server": "http://127.0.0.1:8000",
+  "model": "denial-appeal-finetune-baseline",
+  "requests": 50,
+  "p50_ms": 2.93,
+  "p95_ms": 7.72,
+  "mean_ms": 3.71,
+  "throughput_req_per_sec": 265.0
+}

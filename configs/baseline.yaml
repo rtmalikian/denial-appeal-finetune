@@ -1,0 +1,7 @@
+seed: 42
+train: data/sample/train.jsonl
+test: data/sample/test.jsonl
+out_dir: artifacts
+model:
+  vectorizer: tfidf(1,2) sublinear
+  classifier: LogisticRegression(C=4.0, max_iter=1000)
